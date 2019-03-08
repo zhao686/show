@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            background: url("img/jiguang.jpg");
+            background-size: cover;
+        }
+        .container{
+            display: none;
+        }
+        .hello{
+            color: white;
+            font-size: 20px;
+        }
+        .tx img{
+            border-radius:50% ;
+            width: 30%;
+        }
+        .th{
+            position: absolute;
+            bottom: 500px;
+            left: 800px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="th">
+<div class="tx">
+    <img src="img/tx.jpg">
+</div>
+<div class="hello">
+    <p>Holle，欢迎来到我的主页！</p>
+    <p style="font-size: 16px">(点击屏幕任意处进入)</p>
+</div>
+</div>
+<div class="container">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Holle,word</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">视频</a></li>
+                <li><a>攻略</a></li>
+                <li><a href="#">论坛</a></li>
+                <li><a href="#">游戏下载</a></li>
+                <li><a href="#">意见反馈</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="请输入要查找的内容">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登录</a></li>
+                <li class="dropdown">
+                    <a href="#">注册 </a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="thumbnail">
+                    <img src="img/timg.jpg" width="100%" alt="...">
+                    <div class="caption">
+                        <h3>Holle</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">进入</a></p>                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="thumbnail">
+                    <img src="img/timg.jpg" width="100%" alt="...">
+                    <div class="caption">
+                        <h3>Holle</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">进入</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="thumbnail">
+                    <img src="img/timg.jpg" width="100%" alt="...">
+                    <div class="caption">
+                        <h3>Holle</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">进入</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--后面跟数字是几，也就是占几份,
+比如是4，也就是一行可以显示3个;
+或者12，就是一行可以显示1个。-->
+
+
+    </div>
+
+</nav>
+<!--底部-->
+
+    <ul class="list-group">
+        <li class="list-group-item" style="background:rgba(140,215,255,0.28); font-size: 20px;color: grey">
+            <span class="left"><img src="img/timg.jpg" width="3%"> </span>
+            【热门攻略】  饥饿存活300天攻略！
+        </li>
+    </ul>
+    <ul class="list-group">
+        <li class="list-group-item" style="background:rgba(140,215,255,0.28); font-size: 20px;color: grey">
+            <span class="left"><img src="img/timg.jpg" width="3%"> </span>
+            【热门攻略】  iglpl冠军！
+        </li>
+    </ul>
+    <ul class="list-group">
+        <li class="list-group-item" style="background:rgba(140,215,255,0.28); font-size: 20px;color: grey">
+            <span class="left"><img src="img/timg.jpg" width="3%"> </span>
+            【热门攻略】  LOL最快五杀
+        </li>
+    </ul>
+    <ul class="list-group">
+        <li class="list-group-item" style="background:rgba(140,215,255,0.28); font-size: 20px;color: grey">
+            <span class="left"><img src="img/timg.jpg" width="3%"> </span>
+            【热门攻略】  大兵饥荒直播间
+        </li>
+    </ul>
+
+    <ul class="list-group">
+        <li class="list-group-item" style="background:rgba(140,215,255,0.28); font-size: 20px;color: grey">
+            <span class="left"><img src="img/timg.jpg" width="3%"> </span>
+            【热门攻略】  论问道套装优劣
+        </li>
+    </ul>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+       $("html").click(function () {
+           $(".container").fadeIn(1000).show();
+           $(".th").animate({
+               top:"20px",
+               left:'20px',
+               width:"8%"
+           });
+           $(".hello").hide();
+       });
+       $(".list-group li:eq(0)").click(function () {
+
+       })
+    });
+
+</script>
+</body>
+</html>
